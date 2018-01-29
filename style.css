@@ -1,0 +1,56 @@
+#logo{
+text-align: center;
+margin-top: 100px;
+background: #d4f157;
+}
+
+.button{
+
+    padding: 8px 32px;
+   	
+   	display: block;
+    font-size: 16px;
+    margin-left: auto;
+    background-color: #d4f157;
+
+   	
+    
+    
+}
+#login{
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #d4f157;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:  0px;
+    border-bottom: 2px solid #d4f157;
+    outline: none;
+}
+
+label{
+opacity: 0.5;
+}
+
+#error{
+	color: red;
+}
+
+#login{
+	margin-top: 10px;
+}
+
+
