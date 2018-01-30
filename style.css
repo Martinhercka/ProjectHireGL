@@ -2,6 +2,8 @@
 text-align: center;
 margin-top: 100px;
 background: #d4f157;
+position: static;
+padding: 10px;
 }
 
 .button{
@@ -12,6 +14,7 @@ background: #d4f157;
     font-size: 16px;
     margin-left: auto;
     background-color: #d4f157;
+    border:#d4f157;
 
    	
     
@@ -19,7 +22,8 @@ background: #d4f157;
 }
 #login{
 	opacity: 0.5;
-	text-decoration: underline;
+	border-bottom: 0.5px solid grey;
+    margin-top: 10px;
 }
 
 input[type=text] {
@@ -29,6 +33,7 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid #d4f157;
+    margin-top:8px;
 }
 
 input[type=password] {
@@ -43,14 +48,14 @@ input[type=password] {
 
 label{
 opacity: 0.5;
+margin-top: 8px;
 }
 
 #error{
 	color: red;
+    display: none;
 }
 
-#login{
-	margin-top: 10px;
-}
+
 
 
