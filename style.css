@@ -6,7 +6,7 @@ position: static;
 padding: 10px;
 }
 
-.button{
+.btn{
 
     padding: 8px 32px;
    	
@@ -15,6 +15,8 @@ padding: 10px;
     margin-left: auto;
     background-color: #d4f157;
     border:#d4f157;
+    position: relative;
+
 
    	
     
@@ -24,6 +26,7 @@ padding: 10px;
 	opacity: 0.5;
 	border-bottom: 0.5px solid grey;
     margin-top: 10px;
+    display: block;
 }
 
 input[type=text] {
@@ -54,7 +57,26 @@ margin-top: 8px;
 #error{
 	color: red;
     display: none;
+    font-weight: bold;
+    
 }
+
+#errorusr
+{
+
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
+#errorpwd
+{
+
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+
 
 
 
