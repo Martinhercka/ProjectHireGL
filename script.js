@@ -39,7 +39,34 @@ $("#error").hide();
 
     }
     });
+  $("#button").click(function(){
+    var userNameValue=$("#usr").val();
+    var passwordValue=$("#pwd").val();
+  $.ajax({
+    
+    url:"http://akademiasovy.ddns.net:8081/api/auth/login",
+    type: 'POST',
+    contentType:'application/json',
+    data: JSON.stringify({"userName":userNameValue,"password":passwordValue}),
+    success: function(data){
+        data.token
+        window.location.href='secondpage.html';
+    },
+    error: function(){
+        
+$("#error").show();
+    
 
+    }
+
+
+
+
+
+
+
+  });
+});
 
 
 
